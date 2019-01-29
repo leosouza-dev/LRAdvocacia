@@ -1,0 +1,49 @@
+.bg-dark{
+    background: #000 !important;
+}
+
+#banner_home{
+    height: 400px;
+    width: 100%;
+    background: url(../img/banner_hom.jpg);
+    background-size: cover;
+
+    color: aliceblue;
+
+
+}
+
+@media (max-width: 575px) { 
+
+
+
+    #banner_home{
+        height: 300px;
+        width: 100%;
+        background: url(../img/banner_hom.jpg);
+        background-size: cover;
+
+
+    }
+}
+
+@media (min-width: 768px) { 
+    #banner_home{
+        height: 500px;
+        width: 100%;
+        background: url(../img/banner_hom.jpg);
+        background-size: cover;
+
+    }
+}
+
+@media (min-width: 1200px) { 
+    #banner_home{
+        height: 700px;
+        width: 100%;
+        background: url(../img/banner_hom.jpg);
+        background-size: cover;
+    }
+ }
+
+ 
